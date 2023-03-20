@@ -41,72 +41,37 @@ All failing requests will return the status code and a descriptive error message
 
 POST https://api.alsoa.com/api/events
 
-#### Generic body parameters
-+ event (Required)
-> We implemented a general event name mapping logic so that users will only care about Alsoa's event naming and we handle the mappings for them automatically.
+#### Field Definitions
 
-+ time
-> This parameter allows to specify the date at which the specific conversion occured. If this parameter is not present, the current time will be added to the payload.
+| Field key            | Field                          | Notes                                            |
+| ---------------------|--------------------------------|--------------------------------------------------|
+| `event`              | Alsoa's event name             | We handle the event name mappings                |
+| `first_name`         | First name                     |                                                  |
+| `last_name`          | Last name                      |                                                  |
+| `email`              | Email address                  |                                                  |
+| `country`            | Country                        |                                                  |
+| `city`               | City                           |                                                  |
+| `state`              | State (or Province)            |                                                  |
+| `postal`             | Zip (or Postal Code)           |                                                  |
+| `mobile`             | Phone #                        |                                                  |
+| `time`               | Date converted                 | Date > JSON.stringify "2022-05-09T22:01:23.561Z" |
+| `url`                | URL converted at               |                                                  |
+| `ip`                 | With IP                        |                                                  |
+| `uas`                | With user agent string         |                                                  |
+| `external_id`        | External ID                    |                                                  |
+| `currency`           | Currency                       |                                                  |
+| `value`              | Value                          |                                                  |
+| `content_category`   | Content category               |                                                  |
+| `content_name`       | Content name                   |                                                  |
+| `fbclid`             | Facebook CLID                  | (alternative key)                                |
+| `sclid`              | Snapchat CLID                  | (alternative key)                                |
+| `ttclid`             | Tiktok CLID                    | (alternative key)                                |
+| `gclid`              | Google Ads CLID                | (alternative key)                                |
+| `clientId`           | Google Ads Client Id           | ** Needed only with gclid parameter              |
+| `customerId`         | Google Ads Customer Id         | ** Needed only with gclid parameter              |
+| `conversionActionId` | Google Ads Conversion Action Id| ** Needed only with gclid parameter              |
 
-+ first_name
-
-+ last_name
-
-+ email
-
-+ city
-
-+ state
-
-+ postal
-
-+ mobile
-
-+ url
-
-+ ip
-
-+ uas
-
-+ external_id
-
-+ date_of_birth
-
-+ gender
-
-+ country
-
-+ content_category
-
-+ content_name
-
-+ currency
-
-+ value
-
-#### Facebook specific body parameters
-+ fbclid (Required)
-> This is the only parameter which is specific for reporting Facebook conversions.
-
-#### Snapchat specific body parameters
-+ sclid (Required)
-> This is the only parameter which is specific for reporting Snapchat conversions.
-
-#### Tiktok specific body parameters
-+ ttclid (Required)
-> This is the only parameter which is specific for reporting Tiktok conversions.
-
-#### Google specific body parameters
-+ gclid (Required)
-> This is the only parameter which is specific for reporting Google conversions.
-
-For firing Google conversions it's needed to onboard the specific clientId to Alsoa providing also the corresponding values for clientSecret, mccCustomerId, refreshToken and devToken
-
-+ clientId (Required)
-
-+ customerId (Required)
-
-+ conversionActionId (Required)
+> For firing Google conversions it's needed to onboard the specific clientId to Alsoa providing also the corresponding values for clientSecret, mccCustomerId, refreshToken and devToken
 
 ## Event mappings
 > The first value corresponds to Alsoa's supported events. 
