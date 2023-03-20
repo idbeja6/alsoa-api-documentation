@@ -74,94 +74,47 @@ POST https://api.alsoa.com/api/events
 > For firing Google conversions it's needed to onboard the specific clientId to Alsoa providing also the corresponding values for clientSecret, mccCustomerId, refreshToken and devToken
 
 ## Event mappings
-> The first value corresponds to Alsoa's supported events. 
 
-> The second value corresponds to Facebook's converted event names.
-
-> The third value corresponds to Snapchat's converted event names.
-
-> The fourth value corresponds to Tiktok's converted event names.
-
-+ AddPaymentInfo : ['AddPaymentInfo','AddPaymentInfo', 'ADD_BILLING', 'AddPaymentInfo']
-
-+ AddToCart : ['AddToCart', 'AddToCart', 'ADD_CART', 'AddToCart']
-
-+ AddToWishlist : ['AddToWishlist', 'AddToWishlist','ADD_TO_WISHLIST', 'AddToWishlist']
-
-+ CompleteRegistration : ['CompleteRegistration', 'CompleteRegistration', 'SIGN_UP', 'CompleteRegistration']
-
-+ Contact : ['Contact', 'Contact', undefined, 'Contact']
-
-+ CustomizeProduct : ['CustomizeProduct', 'CustomizeProduct', undefined, undefined]
-
-+ Donate : ['Donate', 'Donate', undefined, undefined]
-
-+ FindLocation : ['FindLocation', 'FindLocation', undefined, undefined]
-
-+ InitiateCheckout : ['InitiateCheckout', 'InitiateCheckout', 'START_CHECKOUT', 'InitiateCheckout']
-
-+ Lead : ['Lead', 'Lead', undefined, 'SubmitForm']
-
-+ Purchase : ['Purchase', 'Purchase', 'PURCHASE', 'PlaceAnOrder']
-
-+ Schedule : ['Schedule', 'Schedule', undefined, undefined]
-
-+ Search : ['Search', 'Search', 'SEARCH', 'Search']
-
-+ StartTrial : ['StartTrial', 'StartTrial', 'START_TRIAL', undefined]
-
-+ SubmitApplication: ['SubmitApplication', 'SubmitApplication', undefined, undefined]
-
-+ Subscribe : ['Subscribe', 'Subscribe', 'SUBSCRIBE', 'Subscribe']
-
-+ ViewContent : ['ViewContent', 'ViewContent','VIEW_CONTENT', 'ViewContent'],
-
-// Only in Tiktok
-+ ClickButton: ['ClickButton', undefined, undefined, 'ClickButton']
-
-+ CompletePayment: ['CompletePayment', undefined, undefined, 'CompletePayment']
-
-+ Download : ['Download', undefined, undefined, 'Download']
-
-// Only in Snapchat
-+ SAVE : ['SAVE', undefined, 'SAVE', undefined]
-
-+ PAGE_VIEW : ['PAGE_VIEW', undefined,'PAGE_VIEW', undefined]
-
-+ AD_CLICK : ['AD_CLICK', undefined,'AD_CLICK', undefined]
-
-+ AD_VIEW : ['AD_VIEW', undefined,'AD_VIEW', undefined]
-
-+ COMPLETE_TUTORIAL : ['COMPLETE_TUTORIAL', undefined,'COMPLETE_TUTORIAL', undefined]
-
-+ LEVEL_COMPLETE : ['LEVEL_COMPLETE', undefined,'LEVEL_COMPLETE', undefined]
-
-+ INVITE : ['INVITE', undefined,'INVITE', undefined]
-
-+ LOGIN : ['LOGIN', undefined,'LOGIN', undefined]
-
-+ SHARE : ['SHARE', undefined,'SHARE', undefined]
-
-+ RESERVE : ['RESERVE', undefined,'RESERVE', undefined]
-
-+ ACHIEVEMENT_UNLOCKED : ['ACHIEVEMENT_UNLOCKED', undefined,'ACHIEVEMENT_UNLOCKED', undefined]
-
-+ SPENT_CREDITS : ['SPENT_CREDITS', undefined,'SPENT_CREDITS', undefined]
-
-+ RATE : ['RATE', undefined,'RATE', undefined]
-
-+ LIST_VIEW : ['LIST_VIEW', undefined,'LIST_VIEW', undefined]
-
-+ APP_INSTALL : ['APP_INSTALL', undefined,'APP_INSTALL', undefined]
-
-+ APP_OPEN : ['APP_OPEN', undefined,'APP_OPEN', undefined]
-
-+ CUSTOM_EVENT_1 : ['CUSTOM_EVENT_1', undefined,'CUSTOM_EVENT_1', undefined]
-
-+ CUSTOM_EVENT_2 : ['CUSTOM_EVENT_2', undefined,'CUSTOM_EVENT_2', undefined]
-
-+ CUSTOM_EVENT_3 : ['CUSTOM_EVENT_3', undefined,'CUSTOM_EVENT_3', undefined]
-
-+ CUSTOM_EVENT_4 : ['CUSTOM_EVENT_4', undefined,'CUSTOM_EVENT_4', undefined]
-
-+ CUSTOM_EVENT_5 : ['CUSTOM_EVENT_5', undefined,'CUSTOM_EVENT_5', undefined]
+| Alsoa's event name       | Facebook's event name               | Snapchat's event name          | Tiktok's event name         |
+| -------------------------|--------------------------------|-------------------------------------|-----------------------------|
+| `AddPaymentInfo`         | AddPaymentInfo                 | ADD_BILLING                         |AddPaymentInfo               |
+| `AddToCart`              | AddToCart                      | ADD_CART                            |AddToCart                    |
+| `AddToWishlist`          | AddToWishlist                  | ADD_TO_WISHLIST                     |AddToWishlist                |
+| `CompleteRegistration`   | CompleteRegistration           | SIGN_UP                             |CompleteRegistration         |
+| `Contact`                | Contact                        | undefined                           |Contact                      |
+| `CustomizeProduct`       | CustomizeProduct               | undefined                           |undefined                    |
+| `Donate`                 | Donate                         | undefined                           |undefined                    |
+| `FindLocation`           | FindLocation                   | undefined                           |undefined                    |
+| `InitiateCheckout`       | InitiateCheckout               | START_CHECKOUT                      |InitiateCheckout             |
+| `Lead`                   | Lead                           | undefined                           |SubmitForm                   |
+| `Purchase`               | Purchase                       | PURCHASE                            |PlaceAnOrder                 |
+| `Schedule`               | Schedule                       | undefined                           |undefined                    |
+| `Search`                 | Search                         | SEARCH                              |Search                       |
+| `StartTrial`             | StartTrial                     | START_TRIAL                         |undefined                    |
+| `SubmitApplication`      | SubmitApplication              | undefined                           |undefined                    |
+| `Subscribe`              | Subscribe                      | SUBSCRIBE                           |Subscribe                    |
+| `ViewContent`            | ViewContent                    | VIEW_CONTENT                        |ViewContent                  |
+| `ClickButton`            | undefined                      | undefined                           |ClickButton                  |
+| `CompletePayment`        | undefined                      | undefined                           |CompletePayment              |
+| `Download`               | undefined                      | undefined                           |Download                     |
+| `SAVE`                   | undefined                      | SAVE                                |undefined                    |
+| `PAGE_VIEW`              | undefined                      | PAGE_VIEW                           |undefined                    |
+| `AD_CLICK`               | undefined                      | AD_CLICK                            |undefined                    |
+| `AD_VIEW`                | undefined                      | AD_VIEW                             |undefined                    |
+| `COMPLETE_TUTORIAL`      | undefined                      | COMPLETE_TUTORIAL                   |undefined                    |
+| `LEVEL_COMPLETE`         | undefined                      | LEVEL_COMPLETE                      |undefined                    |
+| `INVITE`                 | undefined                      | INVITE                              |undefined                    |
+| `LOGIN`                  | undefined                      | LOGIN                               |undefined                    |
+| `SHARE`                  | undefined                      | SHARE                               |undefined                    |
+| `RESERVE`                | undefined                      | RESERVE                             |undefined                    |
+| `ACHIEVEMENT_UNLOCKED`   | undefined                      | ACHIEVEMENT_UNLOCKED                |undefined                    |
+| `SPENT_CREDITS`          | undefined                      | SPENT_CREDITS                       |undefined                    |
+| `RATE`                   | undefined                      | RATE                                |undefined                    |
+| `LIST_VIEW`              | undefined                      | LIST_VIEW                           |undefined                    |
+| `APP_INSTALL`            | undefined                      | APP_INSTALL                         |undefined                    |
+| `APP_OPEN`               | undefined                      | APP_OPEN                            |undefined                    |
+| `CUSTOM_EVENT_1`         | undefined                      | CUSTOM_EVENT_1                      |undefined                    |
+| `CUSTOM_EVENT_2`         | undefined                      | CUSTOM_EVENT_2                      |undefined                    |
+| `CUSTOM_EVENT_3`         | undefined                      | CUSTOM_EVENT_3                      |undefined                    |
+| `CUSTOM_EVENT_4`         | undefined                      | CUSTOM_EVENT_4                      |undefined                    |
+| `CUSTOM_EVENT_5`         | undefined                      | CUSTOM_EVENT_5                      |undefined                    |
