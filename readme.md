@@ -5,7 +5,7 @@ alsoa is a (S2S) Server-To-Server conversion tracking API for desktop, web and m
 Passing our API as dense of an object allows for conversion tracking with higher match rates across one, or multiple ad channels (S2S) Server-To-Server. Data and events routing's are based on the retention of ad CLID's (click-id’s).
 
 # Ad Channel Support
-- [Meta](facebook.md)
+- [Meta](meta.md)
 - Google Ads
 - Snapchat Ads
 - TikTok Ads
