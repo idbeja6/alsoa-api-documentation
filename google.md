@@ -36,3 +36,5 @@ curl --location 'https://api.alsoa.com/api/events' \
     ]
 }
 ```
+
+> To send a Google Ads conversions a clientId from the ad account is required by alsoa, and corresponding values for clientSecret, mccCustomerId, refreshToken and devToken
