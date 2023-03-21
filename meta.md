@@ -1,8 +1,8 @@
 ## Sample request (Facebook conversion)
-curl --location 'https://api.alsoa.com/api/events'</br>
---header 'token:<<PASTE_YOUR_TOKEN_HERE>>'</br>
---header 'pixel: <<PASTE_YOUR_PIXEL_ID_HERE>>'</br>
---header 'Content-Type: application/json'</br>
+curl --location 'https://api.alsoa.com/api/events' \
+--header 'token:<<PASTE_YOUR_TOKEN_HERE>>' \
+--header 'pixel: <<PASTE_YOUR_PIXEL_ID_HERE>>' \
+--header 'Content-Type: application/json'
 ```yaml
 {
   "fbclid": "IwAR1TeejVM0hGBUN0vi0VLo634dvllqrRzyapDrUG5xFTGIiH9rcNzgsrOZE",
