@@ -120,6 +120,7 @@ POST https://api.alsoa.com/api/events
 # Development Resources
 ## Postman Collections
 Our postman collections provide examples on how to conversion API's across single, or multi-channel attribution scenarios.
+[Use the collections] (alsoa.postman_collection.json)
 
 ## Developer Support
 ryan@e1even.com, or text 616-635-9732
