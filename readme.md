@@ -36,13 +36,11 @@ Note: All API requests must be made over HTTPS.
 
 ## Conversion Events
 
-### Post a conversion to Ad Channel Ads API
-
-#### URL
+### Post conversion to Ad Channel Ads API
 
 POST https://api.alsoa.com/api/events
 
-#### Field Definitions
+# Field Definitions
 
 | Field key            | Field                          | Notes                                            |
 | ---------------------|--------------------------------|--------------------------------------------------|
@@ -57,8 +55,8 @@ POST https://api.alsoa.com/api/events
 | `mobile`             | Phone #                        |                                                  |
 | `time`               | Date converted                 | Date > JSON.stringify "2022-05-09T22:01:23.561Z" |
 | `url`                | URL converted at               |                                                  |
-| `ip`                 | With IP                        |                                                  |
-| `uas`                | With user agent string         |                                                  |
+| `ip`                 | User IP                        |                                                  |
+| `uas`                | User agent string              |                                                  |
 | `external_id`        | External ID                    |                                                  |
 | `currency`           | Currency                       |                                                  |
 | `value`              | Value                          |                                                  |
@@ -72,9 +70,9 @@ POST https://api.alsoa.com/api/events
 | `customerId`         | Google Ads Customer Id         | ** Needed only with gclid parameter              |
 | `conversionActionId` | Google Ads Conversion Action Id| ** Needed only with gclid parameter              |
 
-> For firing Google conversions it's needed to onboard the specific clientId to Alsoa providing also the corresponding values for clientSecret, mccCustomerId, refreshToken and devToken
 
-## Event mappings
+
+# Event mappings
 
 | Alsoa's event name       | Facebook's event name               | Snapchat's event name          | Tiktok's event name         |
 | -------------------------|--------------------------------|-------------------------------------|-----------------------------|
