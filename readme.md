@@ -1,4 +1,4 @@
-![alsoa.](https://uploads-ssl.webflow.com/623a2959e59eff1a0bd13e2e/6241ddc3b23ac92b63730870_alsoa.svg)
+<img src="https://uploads-ssl.webflow.com/623a2959e59eff1a0bd13e2e/6241ddc3b23ac92b63730870_alsoa.svg"/>
 
 Alsoa is a server-to-server conversion tracking API for desktop, web and mobile. By acting as conduit, we transact data from event source directly to ad-channels while encapsulating functional requirements, and simplifying event S2S payloads.
 
