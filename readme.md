@@ -16,8 +16,8 @@ Passing our API as dense of an object allows for conversion tracking with higher
 
 To start use our API you will need to correctly authenticate all requests. There are  two inputs required for authentication and authorization regardless of which ad channel the conversion will be redirected to: token and pixel id.
 
-**token** - you're ad channels respective authorization token
-**pixel** - The pixel ID the token is authorized to post to
+**token** - you're ad channels respective authorization token\
+**pixel** - The pixel ID the token is authorized to post to\
 
 > You can provide this as headers, query parameters or as body parameters. Providing them as headers is the recommended approach.
 
