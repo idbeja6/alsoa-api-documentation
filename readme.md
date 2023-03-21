@@ -1,5 +1,8 @@
 # Alsoa API
 
+Alsoa is a server-to-server conversion tracking API for desktop, web and mobile. By acting as conduit, we transact data from event source directly to ad-channels while encapsulating functional requirements, and simplifying event S2S payloads.
+Passing our API as dense as possible of an object allows for true server-to-server conversion tracking with higher match rates. Data and events are routed based on the retention and inclusion of CLID’s (click-id’s).
+
 > The Alsoa API is still a work in progress
 
 **Base URL**: https://api.alsoa.com
