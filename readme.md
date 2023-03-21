@@ -1,21 +1,23 @@
-<img style="height:100px;" src="https://uploads-ssl.webflow.com/623a2959e59eff1a0bd13e2e/6241ddc3b23ac92b63730870_alsoa.svg"/>
+<img style="height:75px;" src="https://uploads-ssl.webflow.com/623a2959e59eff1a0bd13e2e/6241ddc3b23ac92b63730870_alsoa.svg"/>
 
-Alsoa is a server-to-server conversion tracking API for desktop, web and mobile. By acting as conduit, we transact data from event source directly to ad-channels while encapsulating functional requirements, and simplifying event S2S payloads.
+alsoa is a (S2S) Server-To-Server conversion tracking API for desktop, web and mobile. We transact data as a conduit from event origionator to ad-channels while encapsulating functional requirements, and simplifying event S2S payloads. 
 
-Passing our API as dense as possible of an object it allows for true server-to-server conversion tracking with higher match rates across one, or multiple ad channels. Data and events are routed based on the retention and inclusion of CLID’s (click-id’s).
+Passing our API as dense of an object as possible allows for conversion tracking with higher match rates across one, or multiple ad channels (S2S) Server-To-Server. Data and events routing's are based on the retention and inclusion of ad CLID's (click-id’s). 
 
-> The Alsoa API is still a work in progress
+### Ad Channel Support
+- Meta Ads (Facebook, Instagram, WhatsApp)
+- Google Ads
+- Snapchat Ads
+- TikTok Ads
 
-**Base URL**: https://api.alsoa.com
+------------
 
-You must fire against the events endpoint when attempting to fire conversions to the different ad channels
+## Getting Started & Authentication
 
-> https://api.alsoa.com/api/events
+To start use our API you will need to correctly authenticate all requests. There are  two inputs required for authentication and authorization regardless of which ad channel the conversion will be redirected to: token and pixel id.
 
-
-## Authentication
-
-To start using the API you will need to correctly authenticate all requests. There are basically two inputs which are needed for authentication and authorization no matter which ad channel the conversion will be redirected to: token and pixel id.
+**token** - you're ad channels respective authorization token
+**pixel** - The pixel ID the token is authorized to post to
 
 > You can provide this as headers, query parameters or as body parameters. Providing them as headers is the recommended approach.
 
