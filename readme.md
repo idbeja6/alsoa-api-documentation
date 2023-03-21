@@ -22,10 +22,10 @@ To start use our API you will need to correctly authenticate all requests. There
 > You can provide this as headers, query parameters or as body parameters. Providing them as headers is the recommended approach.
 
 ### cURL
-curl --location 'https://api.alsoa.com/api/events' \
---header 'token:<<PASTE_YOUR_TOKEN_HERE>>' \
---header 'pixel: <<PASTE_YOUR_PIXEL_ID_HERE>>' \ 
---header 'Content-Type: application/json' \
+curl --location 'https://api.alsoa.com/api/events'\
+--header 'token:<<PASTE_YOUR_TOKEN_HERE>>'\
+--header 'pixel: <<PASTE_YOUR_PIXEL_ID_HERE>>'\
+--header 'Content-Type: application/json'\
 
 All API requests must be made over HTTPS. Calls made over plain HTTP will fail.
 
