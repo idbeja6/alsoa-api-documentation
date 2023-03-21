@@ -11,10 +11,10 @@ Passing our API as dense of an object allows for conversion tracking with higher
 - [TikTok Ads](tiktok.md)
 
 # Development Resources
-## Postman Collections
+### Postman Collections
 Our [Postman collection](alsoa.postman_collection.json) provides examples on how to conversion API's across single, or multi-channel attribution scenarios.
 
-## Developer Support
+### Developer Support
 ryan@e1even.com
 
 # Getting Started & Authentication
@@ -131,7 +131,7 @@ All failing requests will return the status code and a descriptive error message
 
 # Development Resources
 ## Postman Collections
-Our [Postman collection](alsoa.postman_collection.json) provides examples on how to conversion API's across single, or multi-channel attribution scenarios.
+Our [Postman collections](alsoa.postman_collection.json) provides examples on how to conversion API's across single, or multi-channel attribution scenarios.
 
 ## Developer Support
 ryan@e1even.com
