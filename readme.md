@@ -12,7 +12,7 @@ Passing our API as dense of an object allows for conversion tracking with higher
 
 # Development Resources
 ### Postman Collections
-Our [Postman collection](alsoa.postman_collection.json) provides examples on how to conversion API's across single, or multi-channel attribution scenarios.
+Our [Postman collection](alsoa.postman_collection.json) has conversion API examples across single, or multi-channel attribution scenarios.
 
 ### Developer Support
 ryan@e1even.com
@@ -126,7 +126,6 @@ The alsoa API uses standard [HTTP response codes](https://developer.mozilla.org/
 All successful requests will return a 200 status code and any errors will be in the range 400 (client) to 500 (server).
 
 All failing requests will return the status code and a descriptive error message. 
-
 
 
 # Development Resources
