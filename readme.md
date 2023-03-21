@@ -6,9 +6,9 @@ Passing our API as dense of an object allows for conversion tracking with higher
 
 # Ad Channel Support
 - [Meta](meta.md)
-- Google Ads
-- Snapchat Ads
-- TikTok Ads
+- [Google Ads](google.md)
+- [Snapchat Ads](snapchat.md)
+- [TikTok Ads](tiktok.md)
 
 
 
