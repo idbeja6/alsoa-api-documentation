@@ -81,40 +81,40 @@ POST https://api.alsoa.com/api/events
 | `AddToCart`              | AddToCart                      | ADD_CART                            |AddToCart                    |
 | `AddToWishlist`          | AddToWishlist                  | ADD_TO_WISHLIST                     |AddToWishlist                |
 | `CompleteRegistration`   | CompleteRegistration           | SIGN_UP                             |CompleteRegistration         |
-| `Contact`                | Contact                        | undefined                           |Contact                      |
-| `CustomizeProduct`       | CustomizeProduct               | undefined                           |undefined                    |
-| `Donate`                 | Donate                         | undefined                           |undefined                    |
-| `FindLocation`           | FindLocation                   | undefined                           |undefined                    |
+| `Contact`                | Contact                        |                                     |Contact                      |
+| `CustomizeProduct`       | CustomizeProduct               |                                     |                             |
+| `Donate`                 | Donate                         |                                     |                             |
+| `FindLocation`           | FindLocation                   |                                     |                             |
 | `InitiateCheckout`       | InitiateCheckout               | START_CHECKOUT                      |InitiateCheckout             |
-| `Lead`                   | Lead                           | undefined                           |SubmitForm                   |
+| `Lead`                   | Lead                           |                                     |SubmitForm                   |
 | `Purchase`               | Purchase                       | PURCHASE                            |PlaceAnOrder                 |
-| `Schedule`               | Schedule                       | undefined                           |undefined                    |
+| `Schedule`               | Schedule                       |                                     |                             |
 | `Search`                 | Search                         | SEARCH                              |Search                       |
-| `StartTrial`             | StartTrial                     | START_TRIAL                         |undefined                    |
-| `SubmitApplication`      | SubmitApplication              | undefined                           |undefined                    |
+| `StartTrial`             | StartTrial                     | START_TRIAL                         |                             |
+| `SubmitApplication`      | SubmitApplication              |                                     |                             |
 | `Subscribe`              | Subscribe                      | SUBSCRIBE                           |Subscribe                    |
 | `ViewContent`            | ViewContent                    | VIEW_CONTENT                        |ViewContent                  |
-| `ClickButton`            | undefined                      | undefined                           |ClickButton                  |
-| `CompletePayment`        | undefined                      | undefined                           |CompletePayment              |
-| `Download`               | undefined                      | undefined                           |Download                     |
-| `SAVE`                   | undefined                      | SAVE                                |undefined                    |
-| `PAGE_VIEW`              | undefined                      | PAGE_VIEW                           |undefined                    |
-| `AD_CLICK`               | undefined                      | AD_CLICK                            |undefined                    |
-| `AD_VIEW`                | undefined                      | AD_VIEW                             |undefined                    |
-| `COMPLETE_TUTORIAL`      | undefined                      | COMPLETE_TUTORIAL                   |undefined                    |
-| `LEVEL_COMPLETE`         | undefined                      | LEVEL_COMPLETE                      |undefined                    |
-| `INVITE`                 | undefined                      | INVITE                              |undefined                    |
-| `LOGIN`                  | undefined                      | LOGIN                               |undefined                    |
-| `SHARE`                  | undefined                      | SHARE                               |undefined                    |
-| `RESERVE`                | undefined                      | RESERVE                             |undefined                    |
-| `ACHIEVEMENT_UNLOCKED`   | undefined                      | ACHIEVEMENT_UNLOCKED                |undefined                    |
-| `SPENT_CREDITS`          | undefined                      | SPENT_CREDITS                       |undefined                    |
-| `RATE`                   | undefined                      | RATE                                |undefined                    |
-| `LIST_VIEW`              | undefined                      | LIST_VIEW                           |undefined                    |
-| `APP_INSTALL`            | undefined                      | APP_INSTALL                         |undefined                    |
-| `APP_OPEN`               | undefined                      | APP_OPEN                            |undefined                    |
-| `CUSTOM_EVENT_1`         | undefined                      | CUSTOM_EVENT_1                      |undefined                    |
-| `CUSTOM_EVENT_2`         | undefined                      | CUSTOM_EVENT_2                      |undefined                    |
-| `CUSTOM_EVENT_3`         | undefined                      | CUSTOM_EVENT_3                      |undefined                    |
-| `CUSTOM_EVENT_4`         | undefined                      | CUSTOM_EVENT_4                      |undefined                    |
-| `CUSTOM_EVENT_5`         | undefined                      | CUSTOM_EVENT_5                      |undefined                    |
+| `ClickButton`            |                                |                                     |ClickButton                  |
+| `CompletePayment`        |                                |                                     |CompletePayment              |
+| `Download`               |                                |                                     |Download                     |
+| `SAVE`                   |                                | SAVE                                |                             |
+| `PAGE_VIEW`              |                                | PAGE_VIEW                           |                             |
+| `AD_CLICK`               |                                | AD_CLICK                            |                             |
+| `AD_VIEW`                |                                | AD_VIEW                             |                             |
+| `COMPLETE_TUTORIAL`      |                                | COMPLETE_TUTORIAL                   |                             |
+| `LEVEL_COMPLETE`         |                                | LEVEL_COMPLETE                      |                             |
+| `INVITE`                 |                                | INVITE                              |                             |
+| `LOGIN`                  |                                | LOGIN                               |                             |
+| `SHARE`                  |                                | SHARE                               |                             |
+| `RESERVE`                |                                | RESERVE                             |                             |
+| `ACHIEVEMENT_UNLOCKED`   |                                | ACHIEVEMENT_UNLOCKED                |                             |
+| `SPENT_CREDITS`          |                                | SPENT_CREDITS                       |                             |
+| `RATE`                   |                                | RATE                                |                             |
+| `LIST_VIEW`              |                                | LIST_VIEW                           |                             |
+| `APP_INSTALL`            |                                | APP_INSTALL                         |                             |
+| `APP_OPEN`               |                                | APP_OPEN                            |                             |
+| `CUSTOM_EVENT_1`         |                                | CUSTOM_EVENT_1                      |                             |
+| `CUSTOM_EVENT_2`         |                                | CUSTOM_EVENT_2                      |                             |
+| `CUSTOM_EVENT_3`         |                                | CUSTOM_EVENT_3                      |                             |
+| `CUSTOM_EVENT_4`         |                                | CUSTOM_EVENT_4                      |                             |
+| `CUSTOM_EVENT_5`         |                                | CUSTOM_EVENT_5                      |                             |
