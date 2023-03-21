@@ -119,17 +119,9 @@ POST https://api.alsoa.com/api/events
 | `CUSTOM_EVENT_4`         |                                | CUSTOM_EVENT_4                      |                             |
 | `CUSTOM_EVENT_5`         |                                | CUSTOM_EVENT_5                      |                             |
 
-## Error Handling
+# Error Handling
 
 The alsoa API uses standard [HTTP response codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status). \
 All successful requests will return a 200 status code and any errors will be in the range 400 (client) to 500 (server).
 
 All failing requests will return the status code and a descriptive error message. 
-
-
-# Development Resources
-## Postman Collections
-Our [Postman collections](alsoa.postman_collection.json) provides examples on how to conversion API's across single, or multi-channel attribution scenarios.
-
-## Developer Support
-ryan@e1even.com
