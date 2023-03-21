@@ -24,7 +24,8 @@ To start use our API you will need to correctly authenticate all requests. There
 **token** - you're ad channels respective authorization token \
 **pixel** - The pixel ID the token is authorized to post to
 
-> You can provide this as headers, query parameters or as body parameters. Providing them as headers is the recommended approach.
+> Pixel & Token can be provided as headers, query tring values or as body parameters. \
+> Note: Providing them as headers is the recommended approach.
 
 ### cURL
 curl --location 'https://api.alsoa.com/api/events' \
