@@ -124,7 +124,7 @@ Our postman collections provide examples on how to conversion API's across singl
 ##Developer Support
 ryan@e1even.com, or text 616-635-9732
 
-# Error Handling
+## Error Handling
 
 The alsoa API uses standard [HTTP response codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status). \
 All successful requests will return a 200 status code and any errors will be in the range 400 (client) to 500 (server).
