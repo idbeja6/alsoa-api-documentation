@@ -1,6 +1,6 @@
 <img style="height:75px;" src="https://uploads-ssl.webflow.com/623a2959e59eff1a0bd13e2e/6241ddc3b23ac92b63730870_alsoa.svg"/>
 
-alsoa is a (S2S) Server-To-Server conversion tracking API for desktop, web and mobile. We transact data as a conduit from event origionator to ad-channels while encapsulating functional requirements, and simplifying event S2S payloads. 
+alsoa is a (S2S) Server-To-Server conversion tracking API for desktop, web and mobile. It transacts conversion data and acts as a conduit from event origionator to ad-channel while encapsulating functional requirements, and simplifying payloads. 
 
 Passing our API as dense of an object allows for conversion tracking with higher match rates across one, or multiple ad channels (S2S) Server-To-Server. Data and events routing's are based on the retention of ad CLID's (click-id’s).
 
