@@ -10,9 +10,9 @@ Passing our API as dense of an object as possible allows for conversion tracking
 - Snapchat Ads
 - TikTok Ads
 
-------------
 
-## Getting Started & Authentication
+
+# Getting Started & Authentication
 
 To start use our API you will need to correctly authenticate all requests. There are  two inputs required for authentication and authorization regardless of which ad channel the conversion will be redirected to: token and pixel id.
 
