@@ -21,6 +21,7 @@ curl --location 'https://api.alsoa.com/api/events' \
   "time": "2023-03-21T16:45:58.516Z"
 }
 ```
+> To send a Google Ads conversions a clientId from the ad account is required by alsoa, and corresponding values for clientSecret, mccCustomerId, refreshToken and devToken
 
 ## Sample response (200 OK)
 
@@ -37,4 +38,4 @@ curl --location 'https://api.alsoa.com/api/events' \
 }
 ```
 
-> To send a Google Ads conversions a clientId from the ad account is required by alsoa, and corresponding values for clientSecret, mccCustomerId, refreshToken and devToken
+
