@@ -32,7 +32,8 @@ All API requests must be made over HTTPS. Calls made over plain HTTP will fail.
 
 ## Errors
 
-The Alsoa API uses standard [HTTP response codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status). All successful requests will return a 200 status code and any errors will be in the range 400 (client) to 500 (server).
+The alsoa API uses standard [HTTP response codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status). \
+All successful requests will return a 200 status code and any errors will be in the range 400 (client) to 500 (server).
 
 All failing requests will return the status code and a descriptive error message. 
 
@@ -51,7 +52,7 @@ POST https://api.alsoa.com/api/events
 
 | Field key            | Field                          | Notes                                            |
 | ---------------------|--------------------------------|--------------------------------------------------|
-| `event`              | Alsoa's event name             | We handle the event name mappings                |
+| `event`              | alsoa's event name             | We handle the event name mappings                |
 | `first_name`         | First name                     |                                                  |
 | `last_name`          | Last name                      |                                                  |
 | `email`              | Email address                  |                                                  |
