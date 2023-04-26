@@ -76,52 +76,53 @@ POST https://api.alsoa.com/api/events
 | `clientId`           | Google Ads Client Id            | \*\* Needed only with gclid parameter            |
 | `customerId`         | Google Ads Customer Id          | \*\* Needed only with gclid parameter            |
 | `conversionActionId` | Google Ads Conversion Action Id | \*\* Needed only with gclid parameter            |
+| `epik`               | Pinterest CLID                  |                                                  |
 
 # Event mappings
 
-| Alsoa's event name     | Facebook's event name | Snapchat's event name | Tiktok's event name  |
-| ---------------------- | --------------------- | --------------------- | -------------------- |
-| `AddPaymentInfo`       | AddPaymentInfo        | ADD_BILLING           | AddPaymentInfo       |
-| `AddToCart`            | AddToCart             | ADD_CART              | AddToCart            |
-| `AddToWishlist`        | AddToWishlist         | ADD_TO_WISHLIST       | AddToWishlist        |
-| `CompleteRegistration` | CompleteRegistration  | SIGN_UP               | CompleteRegistration |
-| `Contact`              | Contact               |                       | Contact              |
-| `CustomizeProduct`     | CustomizeProduct      |                       |                      |
-| `Donate`               | Donate                |                       |                      |
-| `FindLocation`         | FindLocation          |                       |                      |
-| `InitiateCheckout`     | InitiateCheckout      | START_CHECKOUT        | InitiateCheckout     |
-| `Lead`                 | Lead                  |                       | SubmitForm           |
-| `Purchase`             | Purchase              | PURCHASE              | PlaceAnOrder         |
-| `Schedule`             | Schedule              |                       |                      |
-| `Search`               | Search                | SEARCH                | Search               |
-| `StartTrial`           | StartTrial            | START_TRIAL           |                      |
-| `SubmitApplication`    | SubmitApplication     |                       |                      |
-| `Subscribe`            | Subscribe             | SUBSCRIBE             | Subscribe            |
-| `ViewContent`          | ViewContent           | VIEW_CONTENT          | ViewContent          |
-| `ClickButton`          |                       |                       | ClickButton          |
-| `CompletePayment`      |                       |                       | CompletePayment      |
-| `Download`             |                       |                       | Download             |
-| `SAVE`                 |                       | SAVE                  |                      |
-| `PAGE_VIEW`            |                       | PAGE_VIEW             |                      |
-| `AD_CLICK`             |                       | AD_CLICK              |                      |
-| `AD_VIEW`              |                       | AD_VIEW               |                      |
-| `COMPLETE_TUTORIAL`    |                       | COMPLETE_TUTORIAL     |                      |
-| `LEVEL_COMPLETE`       |                       | LEVEL_COMPLETE        |                      |
-| `INVITE`               |                       | INVITE                |                      |
-| `LOGIN`                |                       | LOGIN                 |                      |
-| `SHARE`                |                       | SHARE                 |                      |
-| `RESERVE`              |                       | RESERVE               |                      |
-| `ACHIEVEMENT_UNLOCKED` |                       | ACHIEVEMENT_UNLOCKED  |                      |
-| `SPENT_CREDITS`        |                       | SPENT_CREDITS         |                      |
-| `RATE`                 |                       | RATE                  |                      |
-| `LIST_VIEW`            |                       | LIST_VIEW             |                      |
-| `APP_INSTALL`          |                       | APP_INSTALL           |                      |
-| `APP_OPEN`             |                       | APP_OPEN              |                      |
-| `CUSTOM_EVENT_1`       |                       | CUSTOM_EVENT_1        |                      |
-| `CUSTOM_EVENT_2`       |                       | CUSTOM_EVENT_2        |                      |
-| `CUSTOM_EVENT_3`       |                       | CUSTOM_EVENT_3        |                      |
-| `CUSTOM_EVENT_4`       |                       | CUSTOM_EVENT_4        |                      |
-| `CUSTOM_EVENT_5`       |                       | CUSTOM_EVENT_5        |                      |
+| Alsoa's event name     | Facebook's event name | Snapchat's event name | Tiktok's event name  | Pinterest's event name |
+| ---------------------- | --------------------- | --------------------- | -------------------- | ---------------------- |
+| `AddPaymentInfo`       | AddPaymentInfo        | ADD_BILLING           | AddPaymentInfo       |                        |
+| `AddToCart`            | AddToCart             | ADD_CART              | AddToCart            | add_to_cart            |
+| `AddToWishlist`        | AddToWishlist         | ADD_TO_WISHLIST       | AddToWishlist        |                        |
+| `CompleteRegistration` | CompleteRegistration  | SIGN_UP               | CompleteRegistration | signup                 |
+| `Contact`              | Contact               |                       | Contact              |                        |
+| `CustomizeProduct`     | CustomizeProduct      |                       |                      |                        |
+| `Donate`               | Donate                |                       |                      |                        |
+| `FindLocation`         | FindLocation          |                       |                      |                        |
+| `InitiateCheckout`     | InitiateCheckout      | START_CHECKOUT        | InitiateCheckout     | checkout               |
+| `Lead`                 | Lead                  |                       | SubmitForm           | lead                   |
+| `Purchase`             | Purchase              | PURCHASE              | PlaceAnOrder         |                        |
+| `Schedule`             | Schedule              |                       |                      |                        |
+| `Search`               | Search                | SEARCH                | Search               | search                 |
+| `StartTrial`           | StartTrial            | START_TRIAL           |                      |                        |
+| `SubmitApplication`    | SubmitApplication     |                       |                      |                        |
+| `Subscribe`            | Subscribe             | SUBSCRIBE             | Subscribe            |                        |
+| `ViewContent`          | ViewContent           | VIEW_CONTENT          | ViewContent          | page_visit             |
+| `ClickButton`          |                       |                       | ClickButton          |                        |
+| `CompletePayment`      |                       |                       | CompletePayment      |                        |
+| `Download`             |                       |                       | Download             |                        |
+| `SAVE`                 |                       | SAVE                  |                      |                        |
+| `PAGE_VIEW`            |                       | PAGE_VIEW             |                      |                        |
+| `AD_CLICK`             |                       | AD_CLICK              |                      |                        |
+| `AD_VIEW`              |                       | AD_VIEW               |                      |                        |
+| `COMPLETE_TUTORIAL`    |                       | COMPLETE_TUTORIAL     |                      |                        |
+| `LEVEL_COMPLETE`       |                       | LEVEL_COMPLETE        |                      |                        |
+| `INVITE`               |                       | INVITE                |                      |                        |
+| `LOGIN`                |                       | LOGIN                 |                      |                        |
+| `SHARE`                |                       | SHARE                 |                      |                        |
+| `RESERVE`              |                       | RESERVE               |                      |                        |
+| `ACHIEVEMENT_UNLOCKED` |                       | ACHIEVEMENT_UNLOCKED  |                      |                        |
+| `SPENT_CREDITS`        |                       | SPENT_CREDITS         |                      |                        |
+| `RATE`                 |                       | RATE                  |                      |                        |
+| `LIST_VIEW`            |                       | LIST_VIEW             |                      |                        |
+| `APP_INSTALL`          |                       | APP_INSTALL           |                      |                        |
+| `APP_OPEN`             |                       | APP_OPEN              |                      |                        |
+| `CUSTOM_EVENT_1`       |                       | CUSTOM_EVENT_1        |                      |                        |
+| `CUSTOM_EVENT_2`       |                       | CUSTOM_EVENT_2        |                      |                        |
+| `CUSTOM_EVENT_3`       |                       | CUSTOM_EVENT_3        |                      |                        |
+| `CUSTOM_EVENT_4`       |                       | CUSTOM_EVENT_4        |                      |                        |
+| `CUSTOM_EVENT_5`       |                       | CUSTOM_EVENT_5        |                      |                        |
 
 # Error Handling
 
